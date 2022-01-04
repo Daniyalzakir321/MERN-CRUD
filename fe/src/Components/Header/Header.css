@@ -1,0 +1,129 @@
+.dropbtn {
+  color: #212529;
+  border: none;
+  justify-content: center;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  background-color: #fff;
+  padding-top: 5px;
+  text-align: left;
+  color: #212529;
+  text-decoration: none;
+  display: block;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+.dropdown-content a:hover {
+  color: #3db0eb;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header_row {
+  padding-top: 51px;
+  flex-wrap: wrap;
+  text-align: center;
+  /* background-color:   rgba(255,0,0,0); */
+  /* opacity: 0; */
+  /* visibility: hidden; */
+  /* border: 1px solid beige; */
+  /* display: none; */
+}
+
+.logo{
+  text-align: left;
+}
+.logo > a > img {
+  height: 65.5px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.shevon {
+  padding-top: 5px;
+}
+.options {
+  /* text-align: right; */
+  /* background-color: rgb(192, 150, 86); */
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.options > div {
+  margin-left: 20px;
+  list-style: none;
+  
+}
+.options > div>a {
+  color: #000000;
+  font-family: Helvetica;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.options > div>a:hover {
+  color: #141414;
+
+}
+
+.options2 {
+  /* background-color: rgb(79, 49, 189); */
+  display: flex;
+  /* width: 58px; */
+  /* height: 24px; */
+  text-align: center;
+  justify-content: center;
+  /* background-color: #144761; */
+}
+.options2 > a {
+  display: flex;
+  font-family: Helvetica;
+  align-items: center;
+  font-weight: 500;
+  height: 55px;
+  margin: 0px 5px;
+  font-size: 21px;
+  color: #3db0eb;
+  border: 1px solid #3db0eb;
+  background-color: #d3edfa;
+  border-radius: 5px;
+  padding: 0px 12px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  text-decoration: none;
+}
+.options2 > a:hover {
+  background-color: #3db0eb;
+  color: #ffff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .options {
+    margin:10px 0px!important;
+    justify-content: center !important;
+  }
+
+  .options>div {
+    margin: 0px 10px !important;
+}
+.logo{
+  text-align: center;
+}
+
+}

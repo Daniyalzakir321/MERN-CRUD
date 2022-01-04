@@ -1,0 +1,19 @@
+*{
+  margin: 0px;
+}
+
+@font-face {
+  font-family: Helvetica-Neue-Medium;
+  src: url(./Assets/Fonts/Helvetica-Neue-Medium.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Thin;
+  src: url(./Assets/Fonts/Montserrat-Thin.ttf);
+}
+
+/* ============== */
+/* ==== HOME ==== */
+/* ============== */
+
+
